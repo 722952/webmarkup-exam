@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daymen Molenaar">
+    <meta name="keywords" content="HTML, CSS, Zaandijk, Webmarkup, Exams">
+    <meta name="description" content="Hi my name is Daymen Molenaar, and i'm creating a website for my webmarkup exam. This website is about the neighbourhood of Zaandijk and what you can find there. The design i'm going for is a replica of the design i made in the course webdesign">
+
+    <title>Zaandijk</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" type="img/png" href="img/favicon.png">
+</head>
+<body>
+    <header class="header"> 
+        <img src="img/logo.png" class="logo" alt="Logo" title="Website logo">
+
+        <nav class="topnav">
+            <a href="index.html">Home</a>
+            <a href="environment.html">Environment</a>
+            <a href="activities.html">Activities</a>
+            <a href="facilities.html">Facilities</a>
+            <a href="gallery.html">Gallery</a>
+            <a class="current" href="#">Contact</a>
+        </nav>
+    </header>
+
+    <form class="contactform">
+        <h2 class="contacttitle">Contact information</h2>
+
+        <ul class="contactinfo">
+            <li>+06 29141597</li>
+            <li>info@zaandijk.com</li>
+            <li><a href="https://www.google.com/maps/place/Zaandijk/@52.4799071,4.7833473,15z/data=!3m1!4b1!4m6!3m5!1s0x47c5fc8f548999e3:0x9d9980b11d0ebc48!8m2!3d52.4740433!4d4.8028179!16zL20vMDI0cHFo?entry=ttu">Zaandijk</a></li>
+            <li>9:00 - 17:00</li>
+        </ul>  
+
+        <table>
+            <tr>
+              <td>Phone number</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+            </tr>
+            <tr>
+              <td>Location</td>
+            </tr>
+            <tr>
+              <td>Opening hours</td>
+            </tr>
+          </table>
+
+        <fieldset>
+            <legend>Contact Form:</legend>
+
+            <aside>Please fill out all the required fields marked with a *</aside>
+
+            <section class="radiobuttons">
+                <label id="mr"><strong>Mr.</strong></label>
+                <input type="radio" id="mrbutton" name="gender" value="mr">
+
+                <label id="mrs"><strong>Mrs.</strong></label>
+                <input type="radio" id="mrsbutton" name="gender" value="mrs">
+            </section>
+            
+            <label>First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Firstname">
+
+            <label>Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Lastname">
+
+            <label>Email</label>
+            <input type="email" id="email" name="email" placeholder="email@gmail.com">
+
+            <label>Phone Number</label>
+            <input type="text" id="phonenumber" name="phone" placeholder="+06 55669732">
+
+            <h2>Select Subject?</h2>
+
+            <section class="radiobuttons">
+                <label for="general">General</label>
+                <input type="radio" id="general" name="gender" value="general">
+
+                <label for="environment">Environment</label>
+                <input type="radio" id="environment" name="gender" value="environment">
+
+                <label for="activities">Activities</label>
+                <input type="radio" id="activities" name="gender" value="activities">
+
+                <label for="facilities">Facilities</label>
+                <input type="radio" id="facilities" name="gender" value="facilities">
+            </section>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="messagebox" placeholder="message"></textarea>
+
+            <input class="submitBtn" type="submit" value="Submit">
+        </fieldset>
+    </form>
+    
+    <footer class="footer">
+        <p>Copyright &#169; Daymen Molenaar</p>
+    </footer>
+</body>
+</html>
