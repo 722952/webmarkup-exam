@@ -1,5 +1,5 @@
 Student name: Daymen Molenaar 
 Student number: 722592
 Student class: IT1D
-GitHub Repository: your github repository URL
-GitHub Pages URL: your github pages URL
+GitHub Repository: https://github.com/722952/webmarkup-exam
+GitHub Pages URL: https://722952.github.io/webmarkup-exam/index.html
